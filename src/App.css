@@ -1,0 +1,144 @@
+*, html, body{
+  padding: 0;
+  margin: 0;
+  box-shadow: border-box;
+}
+html,body{
+  height: 100%;
+}
+
+body{
+  /* background: linear-gradient(270deg,#071b52 0,teal); */
+}
+
+.pt1{
+  padding-top: 0.5rem !important;
+}
+.pt2{
+  padding-top: 1rem !important;
+}
+.pb1{
+  padding-bottom: 0.5rem !important;
+}
+
+.container{
+  padding: 0 1rem;
+}
+
+.d__flex{
+  display: flex;
+}
+
+.align__items__center{
+  align-items: center;
+}
+
+.justify__content__center{
+  justify-content: center;
+}
+
+.justify__content__around{
+  justify-content: space-around;
+}
+.justify__content__between{
+  justify-content: space-between;
+}
+.flex__column{
+  flex-direction: column;
+}
+.flex__wrap{
+  flex-wrap: wrap;
+}
+.col__gap2{
+  column-gap: 0.5rem;
+}
+.btn{
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  font-size: 0.8375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn__success{
+  background-color: #198754;
+}
+.btn_error{
+  background-color: #dc3545;
+}
+.input__text{
+  min-width: 25em;
+  padding: 0.5rem;
+}
+
+.cards{
+  max-height: calc(100vh - 70px);
+  overflow: auto;
+}
+
+.card{
+  width: 15em;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.2);
+  background-color: #9eebcf;
+}
+
+.card__image{
+  width: 100%;
+  height: 15em;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
+
+.header nav{
+  text-align: right;
+  padding: 1rem 0;
+}
+
+a{
+  text-decoration: none;
+  color: #101010;
+}
+
+.card__details h2 {
+  margin: 0.5rem 0;
+  text-align: center;
+  color: #101010;
+  text-decoration: none;
+}
+
+.card__details p {
+  text-align: center;
+  color: #101010;
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+li a:hover{
+  color: #9eebcf;
+}
+li a.active{
+  color: #9eebcf;
+}
+
+.details li{
+  margin-top: 0.5rem;
+}
+
+header ul li{
+  display: inline-block;
+  margin-right: 1rem;
+}
